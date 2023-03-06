@@ -20,12 +20,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.4",
+        "php": "^8.2",
         "ext-json": "*",
-        "sylius/sylius": "~1.8.0 || ~1.9.0"
-    },
-    "conflict": {
-        "api-platform/core": "^2.6"
+        "sylius/sylius": "^1.12"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
@@ -49,13 +46,13 @@
         "phpstan/phpstan-webmozart-assert": "0.12.12",
         "phpunit/phpunit": "^9.5",
         "sensiolabs/security-checker": "^6.0",
-        "sylius-labs/coding-standard": "^3.1",
+        "sylius-labs/coding-standard": "*",
         "symfony/browser-kit": "^4.4 || ^5.2",
         "symfony/debug-bundle": "^4.4 || ^5.2",
         "symfony/dotenv": "^4.4 || ^5.2",
         "symfony/intl": "^4.4 || ^5.2",
         "symfony/web-profiler-bundle": "^4.4 || ^5.2",
-        "vimeo/psalm": "4.4.1"
+        "vimeo/psalm": "*"
     },
     "config": {
         "sort-packages": true,
