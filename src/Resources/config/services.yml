@@ -14,9 +14,9 @@ services:
     resource: '../../Controller'
     tags: ['controller.service_arguments']
 
-  CleverAge\SyliusColissimoPlugin\Menu\AdminMenuListener:
-    tags:
-      - { name: kernel.event_listener, event: sylius.menu.admin.main }
+#  CleverAge\SyliusColissimoPlugin\Menu\AdminMenuListener:
+#    tags:
+#      - { name: kernel.event_listener, event: sylius.menu.admin.main }
 
   clever_age_sylius_colissimo_plugin.form.extension.type.shipping_method:
     class: CleverAge\SyliusColissimoPlugin\Form\Extension\ShippingMethodTypeExtension
